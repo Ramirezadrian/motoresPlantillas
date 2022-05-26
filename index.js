@@ -11,7 +11,7 @@ app.use('/api/productos', productsRouter)
 app.use('',express.static(__dirname + 'public'))
 
 //HANDLERBARS
-const {engine} = require('express-handlebars')
+/* const {engine} = require('express-handlebars')
 const engienFn = engine({
   extname: '.hbs',
   defaultLayout: `${__dirname}/views/index.hbs`,
@@ -21,11 +21,15 @@ const engienFn = engine({
 
 app.engine('hbs', engienFn)
 app.set('views', './views')
-app.set('view engine', 'hbs')
+app.set('view engine', 'hbs') */
 
 // EJS
 /* app.set('views','./views')
 app.set('view engine', 'ejs') */
+
+// PUG
+app.set('views', './views')
+app.set('view engine', 'pug')
 
 
 const PORT = 8080
@@ -44,8 +48,9 @@ productsRouter.get('', async (req,res) =>{
   const data ={
     products
   }
-    //return res.render('products', data) EJS
-    return res.render('layouts/products', data)
+    //return res.render('products', data) //EJS
+    //return res.render('layouts/products', data) //HBS
+    return res.render('products',data)//PUG
 })
 
 productsRouter.get('/form', async (req,res) =>{
@@ -54,7 +59,7 @@ productsRouter.get('/form', async (req,res) =>{
     products
   }
   // return res.render('form', data) EJS
-    return res.render('layouts/form', data)
+  //  return res.render('layouts/form', data) HBS
 })
 
 productsRouter.get('/:id', async (req,res) =>{
@@ -77,7 +82,7 @@ productsRouter.post('', async (req, res) => {
   await contenedor.save(product)
 
   //return res.redirect('/api/productos/form') EJS
-   return res.redirect('/api/productos/form')
+  // return res.redirect('/api/productos/form') HBS
 })
 
 productsRouter.put('/:id', async (req, res)=>{

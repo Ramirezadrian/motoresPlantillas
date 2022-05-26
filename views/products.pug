@@ -1,0 +1,18 @@
+extend index.pug 
+
+block content 
+    table(class="table")
+        tr
+            th(scope="col")='#'
+            th(scope="col")='Producto'
+            th(scope="col")='Precio'
+            th(scope="col")='Imagen'
+        
+        
+        tr   
+        each prod, index in products    
+            th(scope="row")=index +1
+            td=prod.title
+            td=prod.price
+            td=prod.thumbnail
+        
