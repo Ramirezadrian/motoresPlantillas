@@ -1,0 +1,20 @@
+{{>header}}
+<main >
+        <div class="jumbotron">
+            <form method="POST" action="/api/productos">
+                <div class="mb-3">
+                  <label for="title" class="form-label">Nombre</label>
+                  <input type="text" name="title" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Precio</label>
+                    <input type="text" name="price" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="thumbnail" class="form-label">Imagen</label>
+                    <input type="text" name="thumbnail" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+</main>

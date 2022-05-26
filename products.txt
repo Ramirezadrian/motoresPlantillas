@@ -94,5 +94,11 @@
     "price": "55",
     "thumbnail": "https://cdn2.iconfinder.com/data/icons/random-set-1/432/Asset_80-128.png",
     "id": 16
+  },
+  {
+    "title": "Lentes re copados",
+    "price": "10020202",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/80-s-stuffs-outline/79/Asset_13-128.png",
+    "id": 17
   }
 ]
