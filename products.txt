@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Producto 01",
+    "price": 111,
+    "thumbnail": "./img01",
+    "id": 1
+  },
+  {
+    "title": "Producto 02",
+    "price": 222,
+    "thumbnail": "./img02",
+    "id": 2
+  },
+  {
+    "title": "Producto 04",
+    "price": 100,
+    "thumbnail": "./img01",
+    "id": 3
+  },
+  {
+    "title": "Producto 05",
+    "price": 111,
+    "thumbnail": "./img043",
+    "id": 4
+  },
+  {
+    "title": "asdad",
+    "price": "asdas",
+    "thumbnail": "we",
+    "id": 5
+  },
+  {
+    "title": "ad",
+    "price": "as",
+    "thumbnail": "as",
+    "id": 6
+  },
+  {
+    "title": "",
+    "price": "",
+    "thumbnail": "",
+    "id": 7
+  },
+  {
+    "title": "sds",
+    "price": "12",
+    "thumbnail": "we",
+    "id": 8
+  },
+  {
+    "title": "sds",
+    "price": "12",
+    "thumbnail": "we",
+    "id": 9
+  },
+  {
+    "title": "sds",
+    "price": "12",
+    "thumbnail": "we",
+    "id": 10
+  },
+  {
+    "title": "sds",
+    "price": "12",
+    "thumbnail": "we",
+    "id": 11
+  },
+  {
+    "title": "aaa",
+    "price": "22",
+    "thumbnail": "./asda",
+    "id": 12
+  },
+  {
+    "title": "sfd",
+    "price": "33",
+    "thumbnail": "eda",
+    "id": 13
+  },
+  {
+    "title": "ceramica",
+    "price": "22",
+    "thumbnail": "immangefefas",
+    "id": 14
+  },
+  {
+    "title": "Rodillo",
+    "price": "433",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/random-set-1/492/Asset_74-128.png",
+    "id": 15
+  },
+  {
+    "title": "Tornillos",
+    "price": "55",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/random-set-1/432/Asset_80-128.png",
+    "id": 16
+  }
+]
